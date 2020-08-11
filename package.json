@@ -1,6 +1,7 @@
 {
   "name": "web-bluetooth",
   "version": "0.1.0",
+  "homepage": "http://nguyen-huynh.github.io/web-bluetooth",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
