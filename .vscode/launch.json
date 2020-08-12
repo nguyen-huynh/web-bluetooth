@@ -9,8 +9,8 @@
             "type": "edge",
             "request": "launch",
             "version": "canary",
-            "url": "http://localhost/mypage.html",
-            "webRoot": "${workspaceFolder}/wwwroot"
+            "url": "https://localhost:3000",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
