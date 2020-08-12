@@ -31,7 +31,7 @@ export default class DiscoveryButton extends React.Component<IDiscoveryButtonPro
       let server = await device.gatt?.connect();
       if(_.isNil(server)) throw new Error(`Could not connect to GATT Server`);
 
-      let services = server.getPrimaryServices();
+      let services = await server.getPrimaryServices();
       console.log(`Services: `,services);
 
       (window as any).bleServices = services;
