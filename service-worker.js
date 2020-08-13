@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/web-bluetooth/precache-manifest.12f4bec4ad7ea5ff2e9530f57a85ebe7.js"
+  "/web-bluetooth/precache-manifest.b0de7e5add35ae1e794911fc2e7fd01f.js"
 );
 
 self.addEventListener('message', (event) => {
