@@ -1,8 +1,7 @@
 import React from 'react';
 import preval from 'preval.macro';
-import logo from './logo.svg';
 import './styles/App.scss';
-import DiscoveryButton from './components/bluetooth/discoveryButton';
+import DiscoveryButton from './components/bluetooth/heartRateSensor';
 
 function App() {
   return (
